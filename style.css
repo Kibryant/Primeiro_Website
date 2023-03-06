@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@keyframes fade-in-out {
+    0% {
+        opacity: 0;
+      }
+      
+      50% {
+        background-color: #fff;
+        opacity: 1;
+      }
+      
+      100% {
+        opacity: 0;
+      }
+} 
+@keyframes slideInLeFT {
+    from {
+    right: 100%;
+  }
+  to {
+    right: 0%;
+
+  }
+
+}
+:root {
+    --cor0: #ffff;
+}
+@font-face {
+    font-family: 'batman';
+    src: url('batmfa__.ttf') format('truetype');
+} 
+img {
+    padding: 20px;
+    max-width: 400px;
+    display: flex;
+    margin: 0 auto;
+}
+.red_death {
+    width: 40%;
+}
+.batman { 
+    
+    max-width: 80%;
+    border-radius: 50%;
+    display:block;
+    background: linear-gradient(to right, var(--cor0) 40% , #000000e1 );
+    margin: 0 auto;
+    animation-name: fade-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+
+
+    
+} p {
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+body {
+        min-width: auto;
+        max-width: auto;
+        text-align: justify;
+        color: #ffff;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      
+      
+} 
+h1{
+    color: #e2e213;
+
+}
+h2 {
+    color: #e4e41a;
+}
+abbr {
+    text-decoration: none;
+}
+p > a {
+    text-decoration: underline yellow;
+    color: #fff;
+} 
+p > a:hover {
+    color: yellow;
+} 
+header { 
+    margin-bottom: 20px;
+    min-height: 150px;
+    background: linear-gradient(to right, #ffffff 60% , rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+    font-family: 'batman';
+    text-align: center;
+    position: relative;
+    animation-name: slideInLeFT ;
+    animation-duration: 2s;
+}
+header > h2 {
+    font-size: 16px;
+}
+nav {
+    display: block;
+    margin: 10px;
+
+    background-color: rgba(255, 255, 255, 0.082);
+    padding: 10px;
+
+} 
+a{
+    height: 200px;
+    font-family: 'batman';
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bold;
+    
+}
+a:hover {
+    
+    transition: .5s;
+    color: yellow;
+    
+}
+main {
+    min-width: 350px;
+    max-width: 1200px;
+    margin: auto;
+    height: 80%;
+    display:block;
+    font-family: 'batman';
+} 
+ input {
+
+    padding: 8px;
+    border-color: #000;
+    display: block;
+    font-size: 20px;
+    border-radius: 10px;
+}
+ div {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 100px;
+} 
+.titulo {
+    font-size: 2.5em;
+    margin-top: 100px;
+    text-align: center;
+} 
+h2 {
+    text-align: center;
+}
+footer > p {
+    text-align: center;
+
+}
+
+footer {
+    height: 1000px;
+    margin-top: 100px;
+    font-family: 'batman';
+    text-align: center;
+} 
+ol li {
+    list-style-type: '\1F987\00A0';
+    text-align: left;
+    margin-left: 30px;
+}
+iframe {
+    
+    max-width: 450px;
+}
+.titulo_lista {
+    text-indent: 0;
+    margin-left: 0;
+    text-align: left;
+    font-size: 1em;
+}
